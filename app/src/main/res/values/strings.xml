@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SpoferanTestAndroid</string>
+
+    <!--Errors-->
+    <string name="err_first_name">Der Vorname ist ein Pflichtsfeld</string>
+    <string name="err_last_name">Der Nachname ist ein Pflichtsfeld</string>
+    <string name="err_email">Die Emailaddresse soll gültig sein</string>
+    <string name="err_password">Das Passwortfeld ist Pflicht</string>
+
+</resources>

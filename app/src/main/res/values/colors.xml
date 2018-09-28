@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008200</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primary">#008200</color>
+    <color name="secondary">#f0820a</color>
+    <color name="textColor">#465050</color>
+    <color name="color_hg1">#fbfbfb</color>
+    <color name="color_hg2">#f2f2f2</color>
+    <color name="hg3">#d8d8d8</color>
+    <color name="black_spoferan">#222727</color>
+    <color name="contour_green">#329b32</color>
+    <color name="history_green">#005a00</color>
+</resources>
