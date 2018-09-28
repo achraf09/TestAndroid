@@ -44,7 +44,7 @@ public class TokenManager {
     public AccessToken getToken(){
         AccessToken token = new AccessToken();
         token.setAccessToken(prefs.getString("ACCESS_TOKEN", null));
-        token.setAccessToken(prefs.getString("REFRESH_TOKEN", null));
+        token.setRefreshToken(prefs.getString("REFRESH_TOKEN", null));
         return token;
 
 

@@ -61,11 +61,18 @@ public class PostActivity extends AppCompatActivity {
             public void onResponse(Call<PostResponse> call, Response<PostResponse> response) {
                 Log.w(TAG, "onResponse: " + response );
 
-                 if (response.code() == 401){
-                     tokenManager.deleteToken();
-                     startActivity(new Intent(PostActivity.this, LoginActivity.class));
-                     finish();
+                if (response.isSuccessful()){
+
+                    title.setText(response.body().getData().get(0).getTitle());
+
                 }
+                else{
+                        tokenManager.deleteToken();
+                        startActivity(new Intent(PostActivity.this, LoginActivity.class));
+                        finish();
+
+                }
+
             }
 
             @Override
